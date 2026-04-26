@@ -6,10 +6,9 @@ import Hero from "./hero";
 import Clients from "./clients";
 import Skills from "./skills";
 import Projects from "./projects";
-import Testimonial from "./testimonial";
 import PopularClients from "./popular-clients";
 import ContactForm from "./contact-form";
-import Services from "./services";
+
 
 export default function Portfolio() {
   return (
@@ -19,7 +18,7 @@ export default function Portfolio() {
       <Clients />
       <Skills />
       <Projects />
-      <Testimonial />
+     
       <PopularClients />
       <ContactForm />
       <Footer />
